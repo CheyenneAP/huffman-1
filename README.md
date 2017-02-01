@@ -1,4 +1,5 @@
-# Implementation of the Huffman compression algorithm
+# Huffman
+Implementation of the Huffman compression algorithm
 
 ## Interface
  - importArchive
