@@ -17,8 +17,8 @@ Implementation of the Huffman compression algorithm
 int main() {
     archive arch;
     arch.importArchive(fileName);
-    cout << arch.decompress() << endl;
-    cout << arch.compressionRate() << endl;
+    std::cout << arch.decompress() << std::endl;
+    std::cout << arch.compressionRate() << std::endl;
     
     return 0;
 }
