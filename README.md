@@ -2,12 +2,13 @@
 Implementation of the Huffman compression algorithm
 
 ## Interface
- - importArchive
- - exportExtract
- - compressFile
- - decompress
- - compressionRate
- - exportArchive
+ - void exportArchive(const char* dstName);
+ - void importArchive(const char* dstName);
+ - void exportExtract(const char* dstName);
+ - bool compressFile(const char* fileName);
+ - string decompress();
+ - void compress(string& input);
+ - double compressionRate();
  
 # Example
 ```cpp
